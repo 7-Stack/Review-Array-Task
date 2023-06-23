@@ -29,6 +29,7 @@ const STUDENTS =
 
 const newObject = { name: "Nonso", class: 2, age: 7 }
 const filteredSTUDENTS = filterByAge(STUDENTS);
+const sortedSTUDENTS = sortByAge(STUDENTS);
 
 console.log(findStudentsByName("Ever"));
 console.log(newObject);
